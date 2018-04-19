@@ -1,7 +1,7 @@
 package chap12.pro.ex02;
 
 public class MusicRunnable implements Runnable{
-
+//public class MusicRunnable extends Thread{
 	@Override
 	public void run() {
 		for(int i=0; i<3; i++) {
